@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+.titulo{
+    color: white; 
+    font-size: 10PX;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+.logo{
+    width: 60px; ;
+}
+
+.principal{
+   display: flex;
+    justify-content: center;
+    background-color: rgba(63, 23, 1, 0.774);
+    color: white;
+    padding: 50px;
+}
+
+.form-text{
+    color: white;
+}
+
+section{
+    width: 50%;
+    padding: 20px;
+}
+
+
+    
+@media screen and (max-width: 600px){
+    
+.logo{
+    width: 90%;
+}
+section{
+    width: 90%;
+
+}
+}
